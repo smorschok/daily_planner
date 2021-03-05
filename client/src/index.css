@@ -1,0 +1,62 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body{
+  height: 100vh;
+}
+
+.hover:hover {
+  background-color: #0dcaf05b;
+  cursor: pointer;
+}
+
+
+.bg-info-active {
+  background-color: #0dcaf0 !important;
+}
+
+.btn:focus,
+.btn.focus {
+  box-shadow: none;
+  outline: 0;
+}
+.fs-6 {
+  font-size: 1rem !important;
+}
+.fs-5 {
+  font-size: 2rem !important;
+}
+.modal-dialog {
+  margin: 0;
+}
+.modal-dialog.modal-dialog-centered {
+  margin: 0 auto;
+}
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: black;
+}
+
+.navlink-active {
+  color: black!important;
+}
+
+.navlink-active-dropdown{
+  color: #007bff  !important;
+
+}
+.table-hover tbody tr.active{
+  background-color: #b7d0f1 !important;
+}
+input[type="checkbox"]{
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: bottom;
+}
+.navbar-brand.btn.btn-primary:hover{
+  background-color: transparent;
+  border-color: transparent;
+  
+}
+.tr.blocked{
+  color: red!important;
+}
